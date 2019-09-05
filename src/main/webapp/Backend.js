@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     {
         var js_file = document.createElement('script');
         js_file.type = 'text/javascript';
-        js_file.src = 'https://maps.googleapis.com/maps/api/js?v=3.37&key=AIzaSyC0lTwxTswO_Kl7eJKwbal8EnSH8yjpte0&callback=initMap';
+        js_file.src = 'https://maps.googleapis.com/maps/api/js?v=3.37&key=#######################&callback=initMap';
         document.getElementsByTagName('head')[0].appendChild(js_file);
     }
 });
